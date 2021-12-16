@@ -1,0 +1,318 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@0;1&display=swap');
+
+/*
+RESET: (LISTO)
+selector universal
+/*
+
+
+
+/*
+PROPIEDADES DE TEXTO: 
+listas: 
+-list-style-none
+fuentes: 
+-font-style,
+-font-weight, 
+-font-size, 
+-font-family, 
+-text-align, 
+-line-height, 
+-text-decoration, 
+*/
+
+/*
+PROPIEDAD COLOR (listo): 
+color 
+
+*/
+
+
+
+
+
+/*
+UNIDADES DE MEDIDA: 
+px, 
+porcentaje, 
+rem = 1rem = 16px
+*/
+
+/*
+INSERTAR FUENTES GOOGLE FONTS
+
+
+*/
+
+/*
+
+COLORES
+
+NARANJA: #FF6E00
+AZUL: #001F45
+ROJO: #FF0033
+ROSA: #D0004B
+GRIS: #40516B
+
+
+FUENTES: 
+
+font-family: 'Londrina Solid', cursive;
+font-family: 'Roboto', sans-serif;
+
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.separador{
+    background-color: #725403;
+    height: 8px;
+    border: none; 
+}
+
+.header{
+    background-color: #B29164;
+    padding: 20px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header__logo{
+    max-width: 10%;
+}
+
+.header__list{
+    list-style: none;
+    display: flex; 
+}
+
+.header__item{
+    margin: 0px 10px;
+    background-color: #292A2C;
+    border: none; 
+    color: white; 
+    padding: 12px 8px;
+    border-radius: 3px;
+    cursor: pointer; 
+}
+
+.hero{
+    background-image: url("../imagenes/fondo-textura-madera_53876-14865.jpg");
+    max-width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+}
+
+.hero__contenedor{
+    color: white;
+    position: relative;
+    left: 30px; 
+    padding: 20px 15px;
+    border-radius: 15px; 
+    width: 550px;
+}
+
+.hero__titulo{ 
+    font-family: 'Roboto', sans-serif;
+    font-weight: 200;
+    font-size: 2.5rem;
+}
+
+.btn{
+    background-color: #292A2C;
+    border: none; 
+    color: white; 
+    padding: 12px 8px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.sectionfondo{
+    background-color: #363b44;
+    border: none; 
+}
+
+.btndos{
+    background-color: #805319;
+    border: none; 
+    color: white; 
+    padding: 12px 8px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.complementoMain{
+    color: white; 
+    background-color: #001F45;
+    display: flex;
+}
+
+
+.complementoMain__video{
+    width: 100%;
+}
+
+.complementoMain__contenedor{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 50%;
+    padding: 60px 40px;
+    justify-content: center;
+}
+
+.complementoMain__titulo{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+.complementoMain__parrafo{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    line-height: 1.8;
+}
+
+.equipo{
+    background-color: #F2D794;
+    color:#fff; 
+    display: flex;
+    flex-direction: column;
+    padding: 60px 40px;
+
+}
+
+.equipo__contenedor{
+    display: flex;
+    flex-direction: row;
+    font-family: 'Roboto', sans-serif;
+}
+
+.equipo_titulo--grande{
+    font-family: 'Roboto', sans-serif;
+    font-size: 2rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.equipo__miembro{
+    display: flex;
+    flex-direction: column;
+    padding: 20px 10px;
+    text-align: center;
+    font-size: 1rem;
+    line-height: 1.8;
+
+}
+
+.equipo__img{
+    width: 100%;
+    border-radius: 50%;
+    max-width: 160px;
+    height: 160px;
+    object-fit: cover;
+    margin: auto;
+}
+
+.equipo__img--azul{
+    border: 10px solid #001F45;
+}
+
+.complementoEquipo{
+    display: flex;
+    flex-direction: row;
+    padding: 60px 40px;
+    justify-content: center; 
+    font-family: 'Roboto', sans-serif;
+}
+
+.complementoEquipo__contenedor{
+    display: flex; 
+    flex-direction: row;
+    gap: 20px; 
+}
+
+.complementoEquipo__img{
+    width: 100%;
+}
+
+.complementoEquipo__contenedor--texto{
+    align-self: center;
+    width: 100%;
+}
+
+.complementoEquipo__titulo{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.complementoEquipo__parrafo{
+    font-size: 1rem;
+    line-height: 1.8;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+  }
+
+.column {
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+  }
+  
+  .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+  }
+  
+  
+
+.footer{
+    display: flex;
+    padding: 60px 40px;
+}
+
+.footer__columna{
+    flex-basis: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer__logo{
+    max-width: 200px;
+    margin: auto;
+}
+
+.footer__list{
+    list-style: none;
+}
+
+.footer__list a{
+    text-decoration: none;
+    margin: 10px 0px;
+    display: inline-block;
+}
+
+
+
